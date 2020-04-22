@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	background: url(../img/neon2.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-attachment: fixed;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: consolas;
+}
+.a-1{
+	padding: 15px 30px;
+	color: #8AFD03;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	right: 30%;
+	transition: 0.2s;
+}	
+.a-1{
+	border: 0.1px solid #8AFD03;		
+}
+.a-1:hover{
+	border: 0;
+	color: #000000;
+	background: #8AFD03;
+	box-shadow: 0 0 10px #8AFD03, 0 0 40px #8AFD03, 0 0 80px #8AFD03;
+	/*transition-delay: 1s;*/
+	animation-name: parpadeo;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;  
+}
+
+.a-2{
+	padding: 15px 30px;
+	background: #82E40C;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	right: 30%;
+	transition: 0.5s;
+	border: 0.1px solid #82E40C;
+}
+.a-2:hover{
+	background: none;
+	border-color: #82E40C;
+	color: #82E40C;
+}
+a{
+	position: relative;
+	left: -40%;
+}
+h1, h2{
+	text-transform: uppercase;
+	position: relative;
+	bottom: 15vw;
+}
+h1{
+	bottom: 20vw;
+	left: 32%;
+	border-bottom: 1px solid #82E40C;
+	color: #82E40C;
+	font-size: 60px;
+}
+h2 {
+	font-family: Arial;
+	left: 7%;
+  	color: #82E40C;
+}
+@media screen and (max-width: 1000px){
+	body{
+		background: #000000;
+	}
+	*{
+		margin: 20px;
+	}
+	h1{
+		position: relative;
+		bottom: 100px;
+	}
+	h2{
+		top: 100px;
+	}
+	a{
+		width: 100px;
+	}
+}

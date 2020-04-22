@@ -1,0 +1,32 @@
+#txt{
+	position: relative;
+	left: 30%;
+	bottom: 5vw;
+}
+.cursos{
+	width: 50%;
+}
+#cards{
+	margin: 20px;
+	height: 9vw;
+	width: 60%;
+	position: relative;
+	left: 60%;
+	float:left;
+	cursor: pointer;
+}
+
+div img{
+	margin: 10px;
+	width: 88px;
+	height: auto;
+}
+.agregar-buscar{
+	padding: 20px;
+	position: relative;
+	width: 30%;
+	left: 60%;
+}
+.search{
+	z-index: 10;
+}
